@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #130F40;
+  background-image: linear-gradient(to bottom, #000000, #130F40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  input,
+  textarea {
+    color: #000;
+  }
+  
+  select option {
+    color: black;
+  }

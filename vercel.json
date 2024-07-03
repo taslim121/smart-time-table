@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "smart-time-table",
+    "builds": [
+       { "src": "/backend/index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/backend/index.js" }
+    ]
+ }
